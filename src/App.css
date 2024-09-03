@@ -1,0 +1,131 @@
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Filter Component */
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter button {
+  padding: 10px 15px;
+  background-color:#bfb941d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter button:hover {
+  background-color: #b4c97d;
+}
+
+/* AddMovie Component */
+.add-movie {
+  margin-bottom: 30px;
+}
+
+.add-movie input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.add-movie button {
+  padding: 10px 20px;
+  background-color: #bfb941d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-movie button:hover {
+  background-color: #2188375e;
+}
+
+/* MovieList Component */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* MovieCard Component */
+.informations {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  text-align: left;
+}
+
+.posters {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.titels {
+  font-size: 1.2rem;
+  margin: 15px;
+  color: #333;
+}
+
+.descreptions {
+  font-size: 0.9rem;
+  margin: 15px;
+  color: #666;
+}
+
+.rating {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 15px;
+  color: #318bf291;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
+
