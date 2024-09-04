@@ -113,7 +113,26 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
   margin: 15px;
-  color: #318bf291;
+  color: #1108b6dc;
+}
+.trailer {
+  color: #333;
+  padding: 5px 5px;
+  background-color: rgba(0, 170, 255, 0.271);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home{
+  display:block;
+  justify-content: flex-end;
+  margin-left: 700px;
+  color: white;
+  padding: 10px 5px;
+  background-color: rgb(34, 0, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
